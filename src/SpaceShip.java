@@ -50,4 +50,33 @@ public class SpaceShip {
     public void setVelocidadX(int velocidadX) {
         this.velocidadX = velocidadX;
     }
+
+
+    @Override
+    public String toString() {
+        return "\n" +
+                "\n" +
+                "\n" +
+                "                    oooooOOOOOOOOOOOOOOOOooooo\n" +
+                "                  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n" +
+                "                 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII\n" +
+                "                HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH\n" +
+                "               zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz\n" +
+                "    .<><><><><><><><><><><><><><><><><><><><><><><><><><><><>.\n" +
+                "  /XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\\\n" +
+                "/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\\\n" +
+                "\\XXX[  ]XXX[  ]XXXX[  ]XXXX[  ]XXXX[  ]XXXX[  ]XXXX[  ]XXX[  ]XXX/\n" +
+                "  \\XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/\n" +
+                "      ~~~~\\XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/~~~~\n" +
+                "               /   ~~~<><><><><><><><><><>~~~   \\\n" +
+                "              /      /       |   |          \\      \\\n" +
+                "             /     /               |          \\     \\\n" +
+                "            /    /           |                  \\    \\\n" +
+                "           /   /               |   |              \\   \\\n" +
+                "          /  /               |                      \\  \\\n" +
+                "        _/_/                     | |                  \\_\\_\n" +
+                "       <___>                 |    |                   <___>\n" +
+                "                                    |";
+
+    }
 }
