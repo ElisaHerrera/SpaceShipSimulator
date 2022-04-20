@@ -17,7 +17,7 @@ public class SpaceShip {
 
     public void speedUp(){
        this.velocidadX=this.aceleracion+this.velocidadX;
-
+       this.cordenadaX=this.velocidadX+this.cordenadaX;
     }
     public String getNombre() {
         return nombre;
