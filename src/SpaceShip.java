@@ -24,6 +24,13 @@ public class SpaceShip {
         this.velocidadX=this.aceleracion-this.velocidadX;
         this.cordenadaX=this.velocidadX+this.cordenadaX;
     }
+
+    public void emergencyStop(){
+        this.velocidadX=0;
+
+    }
+
+
     public String getNombre() {
         return nombre;
     }
