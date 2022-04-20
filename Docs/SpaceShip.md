@@ -5,8 +5,8 @@
 
 ![nave gato](https://e7.pngegg.com/pngimages/270/528/png-clipart-cat-spacecraft-drawing-outer-space-spaceship-purple-mammal.png)
 
-es una nave que puede cambiar su velocidad y que tiene una determinada potencia en los mandos tiene la opciones de:
+Es una nave con un gato espacial que puede cambiar su velocidad y que tiene una determinada potencia en los mandos tiene las opciones de:
 
-* acelerar
-* desacelerar
-* parar en seco
+* Acelerar
+* Desacelerar
+* Parar en seco
