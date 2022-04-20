@@ -3,15 +3,22 @@ public class SpaceShip {
     String matriculaGalactica;
     int aceleracion;
     int velocidadX;
+    int cordenadaX;
+    int direccionX;
 
-
-    public SpaceShip(String nombre, String matriculaGalactica, int aceleracion, int velocidadX) {
+    public SpaceShip(String nombre, String matriculaGalactica, int aceleracion) {
         this.nombre = nombre;
         this.matriculaGalactica = matriculaGalactica;
         this.aceleracion = aceleracion;
-        this.velocidadX = velocidadX;
+        this.velocidadX = 0;
+        this.cordenadaX= 4;
+        this.direccionX= 1;
     }
 
+    public void speedUp(){
+       this.velocidadX=this.aceleracion+this.velocidadX;
+
+    }
     public String getNombre() {
         return nombre;
     }
