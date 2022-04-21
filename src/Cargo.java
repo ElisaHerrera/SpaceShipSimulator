@@ -7,13 +7,20 @@ public class Cargo extends SpaceShip{
         this.capacidadMaxima = capacidadMaxima;
         this.carga=0;
     }
-    public void load(){
-        if(carga>capacidadMaxima){
+    public void load() {
+        if (this.carga > this.capacidadMaxima) {
             System.out.println("esta lleno");
-        }else{
-            carga++;
+        } else {
+            this.carga = this.carga + 1;
         }
+    }
+    public void unload(){
 
+        if(this.capacidadMaxima<=0){
+            System.out.println("esta vacio");
+        }else{
+            this.carga=this.carga-1;
+        }
 
     }
 
