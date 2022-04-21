@@ -47,6 +47,17 @@ public class Main {
         if(opcion==2){
              Cargo carguera=new Cargo("gato","23234234D",2,5);
             while (salida!=0){
+                System.out.println("que quieres hacer con la nave");
+                System.out.println("    0 salir de la nave");
+                System.out.println("    1 acelerar");
+                System.out.println("    2 frenar");
+                System.out.println("    3 parada de emergencia");
+                System.out.println("    4 load");
+                System.out.println("    5 unload");
+                System.out.println("    6 mostrar nave");
+
+                salida=sc.nextInt();
+                sc.nextLine();
                 switch (salida){
                     case 0:
                         System.out.println("saliendo");
