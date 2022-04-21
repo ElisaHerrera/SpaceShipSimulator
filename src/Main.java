@@ -26,6 +26,31 @@ public class Main {
                 }
             }
         }
+        if(opcion==2){
+             Cargo carguera=new Cargo("gato","23234234D",2,5);
+            while (salida!=0){
+                switch (salida){
+                    case 0:
+                        System.out.println("saliendo");
+                    break;
+                    case 1:
+                        carguera.speedUp();
+                    break;
+                    case 2:
+                        carguera.speedUp();
+                    break;
+                    case 3:
+                        carguera.emergencyStop();
+                    break;
+                    case 4:
+                        carguera.load();
+                    break;
+                    case 5:
+                        carguera.unload();
+                    break;
+                }
+            }
+        }
 
     }
 
